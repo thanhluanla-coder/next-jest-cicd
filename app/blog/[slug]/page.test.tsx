@@ -12,5 +12,5 @@ it("App Router: Works with dynamic route segments", () => {
 
 it("Lunacy test should be in the Documnet", () => {
     render(<Page params={{ slug: "Test" }} />);
-    expect(screen.getByText('Lunacy')).toBeInTheDocument();
+    expect(screen.getByText('LunacyCICD')).toBeInTheDocument();
 })
